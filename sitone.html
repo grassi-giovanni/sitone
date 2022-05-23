@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITO BRUTTO</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .col-1 { width: 8.33%; }
+    .col-2 { width: 16.66%; }
+    .col-3 { width: 25%; }
+    .col-4 { width: 33.33%; }
+    .col-5 { width: 41.66%; }
+    .col-6 { width: 50%; }
+    .col-7 { width: 58.33%; }
+    .col-8 { width: 66.66%; }
+    .col-9 { width: 75%; }
+    .col-10 { width: 83.33%; }
+    .col-11 { width: 91.66%; }
+    .col-12 { width: 100%; }
+
+    [class*="col-"]{
+        float: left;
+    }
+
+    @media only screen and (min-width: 600px){
+        .col-1 { width: 8.33%; }
+        .col-2 { width: 16.66%; }
+        .col-3 { width: 25%; }
+        .col-4 { width: 33.33%; }
+        .col-5 { width: 41.66%; }
+        .col-6 { width: 50%; }
+        .col-7 { width: 58.33%; }
+        .col-8 { width: 66.66%; }
+        .col-9 { width: 75%; }
+        .col-10 { width: 83.33%; }
+        .col-11 { width: 91.66%; }
+        .col-12 { width: 100%; }
+    }
+
+    @media only screen and (min-width: 768px){
+        .col-1 { width: 8.33%; }
+        .col-2 { width: 16.66%; }
+        .col-3 { width: 25%; }
+        .col-4 { width: 33.33%; }
+        .col-5 { width: 41.66%; }
+        .col-6 { width: 50%; }
+        .col-7 { width: 58.33%; }
+        .col-8 { width: 66.66%; }
+        .col-9 { width: 75%; }
+        .col-10 { width: 83.33%; }
+        .col-11 { width: 91.66%; }
+        .col-12 { width: 100%; }
+    }
+    
+    .centrato{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        color: rgb(255, 145, 0);
+    
+    }
+    body{background-color: rgba(255, 196, 0, 0.582);}
+    .div1 {
+        border: 10px solid rgb(255, 145, 0);
+        background-color: rgba(255, 196, 0, 0.582);
+    }
+    .menu{
+        border: 5px dashed rgb(255, 145, 0);
+        background-color: rgba(255, 196, 0, 0.582);
+        margin-top: 10px;
+    }
+    a{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    a:link, a:visited{
+        background-color: rgb(255, 123, 0);
+        color: white;
+        padding: 15px, 25px;
+        text-decoration: none;
+        display: inline-block;
+    }
+    a:hover{background-color: red;}
+    a:active{
+        background-color:  yellow;
+        color: black;
+    }
+</style>
+<body>
+    <div class="col-12 div1">
+        
+        <img  class="col-3" src="./report.png" alt="logo obbiettvo">
+        <h1 class="col-7 centrato">Città inclusive e sicure</h1>
+        <h3 class="col-12 centrato">di Giovanni Grassi</h3>
+        
+    </div>
+    <center>
+        <div class="col-12 menu">
+            <a href="./sitone.html">Riferimenti</a>
+            <a href="./sitone.html">Scelta grafica</a>
+            <a href="./sitone.html">cose</a>
+            <a href="./sitone.html">pepe la rana che ti sfotte</a>
+        </div>
+    </center>
+
+    
+    
+</body>
+</html>
